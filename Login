@@ -123,8 +123,7 @@
 					console.log("Email: "+isInArray(reademail, email));
 					console.log("Password: "+isInArray2(readpass,password));
 					if(isInArray(reademail, email)== true && isInArray2(readpass,pass)== true){
-						console.log("User Exists");
-						document.location.href='welcome.php';
+						alert("Login Successfull");
 					}
 				});
 				});
